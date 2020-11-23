@@ -1,6 +1,7 @@
 console.log('welcome to node js');
 
+let sum = 0;
 for(i=0; i<=10; i++){
-    let sum = 0;
     sum += i;
 }
+console.log(sum);
